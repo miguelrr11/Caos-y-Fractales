@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Caos y Fractales</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caos y Fractales</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #fafafa;
+      color: #333;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+    }
+
+    main {
+      margin: 0 auto;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #0066cc;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    a:hover {
+      color: #004a99;
+      transform: scale(1.1);
+    }
+
+    .category {
+      margin-top: 30px;
+    }
+
+    .creditos {
+        font-size: small;
+        font-style: italic;
+        margin-top: 40px;
+    }
+
+  </style>
 </head>
 <body>
-    <h1>Welcome to Sistemas Dinámicos, Caos y Fractales</h1>
-</body>
-
-<main>
+  <h1>Sistemas Dinámicos, Caos y Fractales</h1>
+  <main>
     <div class="category">
-         <h2>All projects</h2>
-         <ul>
-            <li><a href="sierpinsky">Curva de Sierpinsky</a></li>
-            <li><a href="alfombraSierpinsky">Alfombra Sierpinsky</a></li>
-            <li><a href="alfombraSierpinskyAleatorio">Alfombra Sierpinsky Aleatorio</a></li>
-            <li><a href="cantorAnimado">Cantor</a></li>
-            <li><a href="juegoDelCaos">Juego Del Caos</a></li>
-            <li><a href="koch">Koch</a></li>
-            <li><a href="kochAleatorio">Koch Aleatorio</a></li>
-         </ul>
-     </div>
+      <h2>Entregas</h2>
+      <ul>
+        <li><a href="sierpinsky">Curva de Sierpinsky</a></li>
+        <li><a href="alfombraSierpinsky">Alfombra Sierpinsky</a></li>
+        <li><a href="alfombraSierpinskyAleatorio">Alfombra Sierpinsky Aleatorio</a></li>
+        <li><a href="cantorAnimado">Cantor</a></li>
+        <li><a href="juegoDelCaos">Juego Del Caos</a></li>
+        <li><a href="koch">Koch</a></li>
+        <li><a href="kochAleatorio">Koch Aleatorio</a></li>
+      </ul>
+    </div>
 </main>
+<footer>
+    <div class="creditos">
+        <p>Miguel Rodríguez Rodríguez</p>
+    </div>
+</footer>
+</body>
 </html>
